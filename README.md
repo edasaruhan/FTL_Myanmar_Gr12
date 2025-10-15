@@ -1,36 +1,29 @@
 # FTL_Myanmar_Gr12
 
-Project Guideline: Idea Proposal Submission 
-This idea proposal should not exceed 1 page and each step should be described very birefly. 
-This is an initial document for your future research. You will do a more comprehensive
-research in the next step. 
-1. Project Idea: 
+1. Project Idea: 
+•	My project idea is “Mental Health Detection from Social Media Posts.”
+•	The goal is to analyze social media text (such as Facebook or X posts) to detect possible signs of mental health issues like stress, anxiety, or depression. Many people including Myanmar express their emotions online, and early detection through text analysis can help raise awareness and promote mental well-being.
+•	The specific goal is to build a system that can classify a post as positive, neutral, or show signs of depression/stress that can be integrated into the social media platform and check the mental health.
+2. Relevance to Sustainable Development Goals (SDGs): 
+•	This project supports SDG 3: Good Health and Well-being, which aims to ensure healthy lives and promote well-being for all.
+•	By identifying emotional distress in online content, the system can contribute to mental health awareness, help NGOs or health organizations identify at-risk individuals, and promote early intervention.
+•	Indirectly, it also contributes to SDG 9 (Industry, Innovation and Infrastructure) by promoting innovative AI-driven approaches in healthcare. 
+3. Literature Examples: 
+•	Natural language processing applied to mental illness detection: a narrative review
+o	https://www.nature.com/articles/s41746-022-00589-7
+•	A deep learning model for detecting mental illness from user content on social media
+o	https://www.nature.com/articles/s41598-020-68764-y
+•	Suicidal ideation detection on social media using machine learning: A review
+o	Zhuo Sheng
+4. Describe Your Data: 
+•	Text data, csv file. 
+•	We will train with English data first and after that we will put the translate algorithms for the different languages.
 
- Start by selecting a project idea that interests you. It could be related to SDGs,
-such as healthcare, poverty reduction etc. 
- Clearly define the problem you want to solve or the task you want to
-accomplish. What is the specific goal of your project? 
-2. Relevance to Sustainable Development Goals (SDGs): 
-
- Explain how your project idea is relevant to the United Nations Sustainable
-Development Goals (SDGs). Consider how your project can contribute to
-achieving sustainability in areas like poverty reduction, environmental
-conservation, health, education, etc. 
-
-3. Literature Examples: 
-
- Research and provide two relevant literature examples of projects or research
-papers that are similar to your idea. These examples can serve as references and
-sources of inspiration for your project. Please explain briefly. 
-
-4. Describe Your Data: 
-
- Describe the data you plan to use for your project. Include details such as the
-source of the data, data format (e.g., CSV, images, text), size, and any data
-preprocessing steps required. 
-
-5. Approach (Machine Learning or Deep Learning): 
-
- Choose whether you will use a machine learning or deep learning approach to
-solve your problem. Justify your choice based on the complexity of the task and
-the nature of the data.
+5. Approach (Machine Learning or Deep Learning): 
+•	We will test with both machine learning and deep learning.
+•	After that we will choose the better way and models.
+•	Machine learning
+o	SVM, XGBoost, ….
+•	Deep learning
+o	BERT-based transformer model or LSTM (Long Short-Term Memory)
+<img width="454" height="675" alt="image" src="https://github.com/user-attachments/assets/f9656b30-ee23-4f45-a6cd-79fd0089dc4f" />

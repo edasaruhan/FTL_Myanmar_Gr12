@@ -1,0 +1,20 @@
+$schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
+name: blue
+endpoint_name: put_your_endpoint_name
+
+# 1. Reference your registered model (Ensure version matches)
+model: azureml:put_your_model_in_azure_ml:put_version
+
+# 2. Define your code configuration
+code_configuration:
+  code: ./
+  scoring_script: score.py
+
+# 3. Define your environment inline
+environment:
+  image: mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04
+  conda_file: ./env.yml
+
+# 4. Choose compute size
+instance_type: Standard_DS2_v2
+instance_count: 1

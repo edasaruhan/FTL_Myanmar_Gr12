@@ -128,7 +128,7 @@
                     "uri": "https://distil-bert-final-model-endpoint.eastasia.inference.ml.azure.com/score",
                     "method": "POST",
                     "headers": {
-                        "Authorization": "Bearer 50EjQHiry0M1UElusZKKky7l3uXHSOdPcBC2vlR9dRWkSb12RM1GJQQJ99BKAAAAAAAAAAAAINFRAZML20Qr",
+                        "Authorization": "Bearer put_your_azure_ml_endpoint_api_key",
                         "Content-Type": "application/json"
                     },
                     "body": {
@@ -199,4 +199,5 @@
             }
         }
     }
+
 }

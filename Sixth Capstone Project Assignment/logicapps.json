@@ -125,7 +125,7 @@
                 },
                 "type": "Http",
                 "inputs": {
-                    "uri": "https://distil-bert-final-model-endpoint.eastasia.inference.ml.azure.com/score",
+                    "uri": "put_your_azure_ml_endpoint_rest_api",
                     "method": "POST",
                     "headers": {
                         "Authorization": "Bearer put_your_azure_ml_endpoint_api_key",
@@ -191,8 +191,8 @@
             "type": "Object",
             "value": {
                 "translatorv2": {
-                    "id": "/subscriptions/48582a1d-388e-4ddf-adf2-54a0db4fae5e/providers/Microsoft.Web/locations/eastasia/managedApis/translatorv2",
-                    "connectionId": "/subscriptions/48582a1d-388e-4ddf-adf2-54a0db4fae5e/resourceGroups/FTLM-BERT/providers/Microsoft.Web/connections/translatorv2",
+                    "id": "/subscriptions/<subscriptionid>/providers/Microsoft.Web/locations/eastasia/managedApis/translatorv2",
+                    "connectionId": "/subscriptions/<subscriptionid>/resourceGroups/FTLM-BERT/providers/Microsoft.Web/connections/translatorv2",
                     "connectionName": "translatorv2",
                     "connectionProperties": {}
                 }
@@ -201,3 +201,4 @@
     }
 
 }
+
